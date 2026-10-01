@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ncfrontiersman.omavolt",
+  "name": "Omavolt",
+  "version": "0.1.0",
+  "author": "ncfrontiersman",
+  "description": "Battery status and PowerTOP power diagnostics",
+  "kinds": ["bar-widget"],
+  "entryPoints": {"barWidget": "Panel.qml"},
+  "barWidget": {
+    "displayName": "Omavolt",
+    "description": "Battery status and PowerTOP power diagnostics",
+    "category": "System",
+    "allowMultiple": false
+  }
+}
